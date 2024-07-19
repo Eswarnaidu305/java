@@ -38,4 +38,4 @@ stages:
   jobs:
     - job: ProductionsJob
       steps:
-      - bash: echo $(environment)ProdDeploy
+      - bash: echo $(environment)ProdDeploy 
